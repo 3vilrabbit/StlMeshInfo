@@ -1,0 +1,20 @@
+{
+  "name": "stl_mesh_info",
+  "version": "0.0.0",
+  "description": "STL Mesh Info",
+  "main": "stlmeshinfo.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0",
+    "express": "^4.14.1",
+    "formidable": "^1.1.1",
+    "connect-busboy": "*",
+    "fs-extra": "*",
+    "ejs": "*"
+  },
+  "scripts": {
+    "start": "node stlmeshinfo.js"
+  },
+  "gypfile": true
+}

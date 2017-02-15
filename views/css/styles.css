@@ -1,0 +1,68 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #444444;
+}
+
+body {
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  margin-top: 15px;
+  color: #B8BDC1;
+  left: 50%;
+}
+
+#upload-input {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    align-content:   center;
+    align-self: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    align-content: center;
+    align-self: center;
+    width: 450px;
+  }
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    align-content: center;
+    align-self: center;
+    left: 25%;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid greenyellow;
+    align-self: center;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: greenyellow;
+}

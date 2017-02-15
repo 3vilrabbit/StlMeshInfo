@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="APP">
+<head>
+    <meta charset="UTF-8">
+    <title>STL Mesh Info</title>
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+      <h2>STL Mesh Info</h2>
+      <table>
+      <tr> <td>Filename</td>      <td> <%= meshName %></td> </tr>
+      <tr> <td>Header</td>        <td> <%= meshInfo.header %></td> </tr>
+      <tr> <td>File Type</td>     <td> <%= meshInfo.fileType %></td> </tr>
+      <tr> <td>Triangles</td>     <td> <%= meshInfo.triangles %></td> </tr>
+      <tr> <td>Edges</td>         <td> <%= meshInfo.edges %></td> </tr>
+      <tr> <td>Vertices</td>      <td> <%= meshInfo.vertices %></td> </tr>
+      <tr> <td>Surface Area</td>  <td> <%= meshInfo.surfaceArea %></td> </tr>
+      <tr> <td>Volume</td>        <td> <%= meshInfo.volume %> </td> </tr>
+      <tr> <td>Size</td>          <td> x: <%= meshInfo.size.x %><br> y: <%= meshInfo.size.y %> <br> z: <%= meshInfo.size.z %> </td> </tr>
+      </table>
+
+
+<body>
